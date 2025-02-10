@@ -20,3 +20,7 @@ section {
 footer {
     margin-top: 20px;
 }
+
+li {
+    margin-bottom: 10px; /* Adjust margin bottom to create space between list items */
+}
