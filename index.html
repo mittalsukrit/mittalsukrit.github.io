@@ -4,145 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukrit Mittal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .justified-text {
-            text-align: justify;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="images/sukrit.jpg" alt="My Profile Picture">
-        <h1>Sukrit Mittal, Ph.D.</h1>
-        <p>Director, AI & Optimization Research | Franklin Templeton</p>
-        <p>Guest Faculty | IIIT Hyderabad</p>
-        <p>Email: <a href="mailto:sukrit.mittal@franklintempleton.com">sukrit.mittal@franklintempleton.com</a> | <a href="mailto:sukrit.mittal@iiit.ac.in">sukrit.mittal@iiit.ac.in</a></p>
-        <p><a href="documents/Resume___Sukrit_Mittal.pdf">CV</a> | <a href="https://linkedin.com/in/msukrit">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=mWlPa_MAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/mittalsukrit">Github</a></p>
-    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <div class="text-center">
+                        <img src="images/sukrit.jpg" alt="My Profile Picture" class="img-fluid rounded-circle mb-3" width="150">
+                        <h2 class="fs-4">Sukrit Mittal, Ph.D.</h2>
+                        <p class="text-muted">Director, AI & Optimization Research | Franklin Templeton</p>
+                    </div>
+                    <ul class="nav flex-column my-3">
+                        <li class="nav-item"><a class="nav-link active" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#talks">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#books">Book(s)</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        <a href="mailto:sukrit.mittal@franklintempleton.com" class="mx-2"><i class="fas fa-envelope"></i></a>
+                        <a href="documents/Resume___Sukrit_Mittal.pdf" class="mx-2"><i class="fas fa-file-alt"></i></a>
+                        <a href="https://linkedin.com/in/msukrit" class="mx-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://scholar.google.com/citations?user=mWlPa_MAAAAJ&hl=en" class="mx-2"><i class="fab fa-google-scholar"></i></a>
+                        <a href="https://github.com/mittalsukrit" class="mx-2"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="justified-text">
-            <p>Sukrit Mittal is the Director of AI & Optimization Research at Franklin Templeton, leading a team of data scientists and developers. He focuses on leveraging advanced AI—including Generative AI and Reinforcement Learning—alongside optimization techniques to conceptualize and develop innovative financial products and solutions. He plays a key role in designing product variants, enhancing features, and tailoring solutions across multiple distribution lines and geographies, applying his expertise in quantitative finance, data science, and product development. He also serves as Guest Faculty at IIIT Hyderabad.</p>
-            <p>He has close to eight years of research experience in optimization and machine learning, actively collaborating with renowned researchers. Prior to his current role, he was invited as a visiting researcher at Michigan State University. Currently, he is applying reinforcement learning methods to solve the goals-based wealth management problem and exploring Generative AI for creating digital twins in financial processes.</p>
-            <p>He holds a Bachelor of Technology in Mechanical Engineering and a Doctorate in Optimization Algorithms from the Indian Institute of Technology Roorkee, along with a Data Science for Investment Professionals Certificate from the CFA Institute, US. He has co-authored the book “Machine Learning Assisted Evolutionary Multi and Many-objective Optimization”, published several research papers in high-impact journals, and holds a granted patent.</p>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div id="about" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">About Me</h2>
+                    <p class="lead">Sukrit Mittal is the Director of AI & Optimization Research at Franklin Templeton, leading a team of data scientists and developers. He focuses on leveraging advanced AI—including Generative AI and Reinforcement Learning—alongside optimization techniques to conceptualize and develop innovative financial products and solutions. He plays a key role in designing product variants, enhancing features, and tailoring solutions across multiple distribution lines and geographies, applying his expertise in quantitative finance, data science, and product development. He also serves as Guest Faculty at IIIT Hyderabad.</p>
+                    <p>He has close to eight years of research experience in optimization and machine learning, actively collaborating with renowned researchers. Prior to his current role, he was invited as a visiting researcher at Michigan State University. Currently, he is applying reinforcement learning methods to solve the goals-based wealth management problem and exploring Generative AI for creating digital twins in financial processes.</p>
+                    <p>He holds a Bachelor of Technology in Mechanical Engineering and a Doctorate in Optimization Algorithms from the Indian Institute of Technology Roorkee, along with a Data Science for Investment Professionals Certificate from the CFA Institute, US. He has co-authored the book “Machine Learning Assisted Evolutionary Multi and Many-objective Optimization”, published several research papers in high-impact journals, and holds a granted patent.</p>
+                </div>
+
+                <div id="experience" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">Work Experience</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">International Institute of Information Technology (IIIT) Hyderabad</h5>
+                            <p class="card-text"><strong>Guest Faculty</strong> (Jan. 2025 - Present)</p>
+                            <p class="card-text"><a href="https://www.iiit.ac.in/faculty/~sukrit.mittal">Homepage</a> | <a href="https://mittalsukrit.github.io/Mathematics-for-Finance/">Course</a></p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Franklin Templeton</h5>
+                            <p class="card-text"><strong>Director, AI & Optimization Research</strong> (Sep. 2025 - Present)</p>
+                            <p class="card-text"><strong>Sr. Research Scientist</strong> (Jan. 2024 - Aug. 2025)</p>
+                            <p class="card-text"><strong>Quant Development, Specialist</strong> (Jun. 2022 - Dec. 2023)</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Michigan State University</h5>
+                            <p class="card-text"><strong>Visiting Researcher</strong> (2020)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mahindra & Mahindra Ltd.</h5>
+                            <p class="card-text"><strong>Design Engineer</strong> (Aug. 2017 - Jun. 2018)</p>
+                            <p class="card-text"><strong>Graduate Engineer Trainee</strong> (Aug. 2016 - Jul. 2017)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="education" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">Education</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>CFA Institute</strong> - Data Science for Investment Professionals Certificate (2023 - 2024, <a href="https://credentials.cfainstitute.org/fbd483d4-a992-432e-adc1-735b3d3f7e26">Credential</a>)</li>
+                        <li class="list-group-item"><strong>Indian Institute of Technology Roorkee</strong> - Ph.D. (2018 - 2022, <a href="documents/sukrit_mittal_doctoral_thesis.pdf" target="_blank">Thesis</a>)</li>
+                        <li class="list-group-item"><strong>Indian Institute of Technology Roorkee</strong> - B.Tech. (2012 - 2018)</li>
+                    </ul>
+                </div>
+
+                <div id="talks" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">Activities</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>2026 Generative AI Models & Their Applications</b> (Feb 2026, IIT Jodhpur, India, <a href="https://iitj-saide.github.io/GenAI-workshop-2026/">Link</a>) <br> [Keynote] Generative AI in Finance? </li>
+                        <li class="list-group-item"><b>2025 ACM Winter School - AI & Finance</b> (Dec 2025, IIIT Hyderabad, India, <a href="https://alphagrep.iiit.ac.in/acm-winter-school.html">Link</a>) <br> [Speaker] Multiple sessions (<a href="https://github.com/mittalsukrit/2025_ACM_Winter_School">Link</a>)</li>
+                        <li class="list-group-item"><b>2025 Genetic and Evolutionary Computation Conference</b> (Jul 2025, Malaga, Spain, <a href="https://gecco-2025.sigevo.org/HomePage">Link</a>) <br> [Tutorial] Machine Learning Assisted Evolutionary Multi- and Many-objective Optimization </li>
+                        <li class="list-group-item"><b>2025 IEEE Congress on Evolutionary Computation</b> (Jun 2025, Hangzhou, China, <a href="https://www.cec2025.org/">Link</a>) <br> [Tutorial] Machine Learning Assisted Evolutionary Multi- and Many-objective Optimization </li>
+                        <li class="list-group-item"><b>2025 IIIT Hyderabad</b> (Feb 2025, Hyderabad, India, <a href="https://alphagrep.iiit.ac.in/#visitors">Link</a>) <br> [Talk] Harnessing Reinforcement Learning for Goals-based Wealth Management </li>
+                        <li class="list-group-item"><b>2024 Global Analytics Summit - AI in Finance</b> (Nov 2024, UT Austin, USA, <a href="https.get.mccombs.utexas.edu/global-analytics-summit-2024/">Link</a>) <br> [Keynote] A Meta Reinforcement Learning Approach to Goals-Based Wealth Management </li>
+                        <li class="list-group-item"><b>2024 JOIM Conference - AI in Finance</b> (Oct 2024, MIT, Boston, USA) <br> [Talk] A Meta Reinforcement Learning Approach to Goals-Based Wealth Management </li>
+                    </ul>
+                </div>
+
+                <div id="books" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">Book(s)</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Machine Learning Assisted Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), 2024 (<a href="https://link.springer.com/book/10.1007/978-981-99-2096-9">Link</a>)</li>
+                    </ul>
+                </div>
+
+                <div id="publications" class="my-5">
+                    <h2 class="border-bottom pb-2 mb-3">Refereed Publications</h2>
+                    <p>For more details about these papers, click <a href="content/publications.html">here</a>.</p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Interpreting Omega Ratio for Goals Based Wealth Management (with Harshad Khadilkar, Sirisha Gorjala, Hungjen Wang, Anand Radhakrishnan and Deep Srivastav), <i>Journal of Wealth Management</i>, 2025.</li>
+                        <li class="list-group-item">Reinforcement learning for Multiple Goals in Goals-Based Wealth Management (with Sanjiv Das, Daniel Ostrov, Anand Radhakrishnan, Deep Srivastav and Hungjen Wang), <i>Artificial Intelligence for Business (AIxB)</i>, 2024. (<a href="https://ieeexplore.ieee.org/abstract/document/10771457">Link</a>)</li>
+                        <li class="list-group-item">A Unified Innovized Progress Operator for Performance Enhancement in Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>IEEE Transactions on Evolutionary Computation</i>, 2024. (<a href="https://ieeexplore.ieee.org/abstract/document/10269130">Link</a>, <a href="https://github.com/mittalsukrit/UIP-operator">Code</a>)</li>
+                        <li class="list-group-item">A Localized High-Fidelity-Dominance-Based Many-Objective Evolutionary Algorithm (with Dhish Kumar Saxena, Sarang Kapoor and Kalyanmoy Deb), <i>IEEE Transactions on Evolutionary Computation</i>, 2023. (<a href="https://ieeexplore.ieee.org/abstract/document/9814856">Link</a>, <a href="https://github.com/mittalsukrit/LHFiD">Code</a>)</li>
+                        <li class="list-group-item">Enhanced Innovized Progress Operator for Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>IEEE Transactions on Evolutionary Computation</i>, 2022. (<a href="https://ieeexplore.ieee.org/abstract/document/9631974">Link</a>)</li>
+                        <li class="list-group-item">A Learning-based Innovized Progress Operator for Faster Convergence in Evolutionary Multi-objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>ACM Transactions on Evolutionary Learning & Optimization</i>, 2022. (<a href="https://dl.acm.org/doi/abs/10.1145/3474059">Link</a>)</li>
+                        <li class="list-group-item">Embedding a Repair Operator in Evolutionary Single and Multi-objective Algorithms - An Exploitation-Exploration Perspective (with Kalyanmoy Deb, Dhish Kumar Saxena and Erik Goodman), <i>Evolutionary Multi-Criterion Optimization (EMO)</i>, 2021. (<a href="https://link.springer.com/chapter/10.1007/978-3-030-72062-9_8">Link</a>)</li>
+                        <li class="list-group-item">A Unified Automated Innovization Framework Using Threshold-based Clustering (with Dhish Kumar Saxena and Kalyanmoy Deb), <i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2020. (<a href="https://ieeexplore.ieee.org/abstract/document/9185879">Link</a>)</li>
+                        <li class="list-group-item">A Generic and Computationally Efficient Automated Innovization Method for Power-Law Design Rules (with Kanish Garg, Anish Mukherjee, Dhish Kumar Saxena and Kalyanmoy Deb), <i>Genetic and Evolutionary Computation Conference (GECCO '20)</i>, 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3377929.3390022">Link</a>)</li>
+                        <li class="list-group-item">Learning-based multi-objective optimization through ANN-assisted online Innovization (with Dhish Kumar Saxena and Kalyanmoy Deb), <i>Genetic and Evolutionary Computation Conference (GECCO '20)</i>, 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3377929.3389925">Link</a>)</li>
+                        <li class="list-group-item">Innovative Design of Hydraulic Actuation System for Operator Fatigue Reduction and Its Optimization (with Divyam Aggarwal and Dhish Kumar Saxena), <i>Advances in Multidisciplinary Analysis and Optimization</i>, 2019. (<a href="https://link.springer.com/chapter/10.1007/978-981-15-5432-2_19">Link</a>)</li>
+                        <li class="list-group-item">Social entrepreneurship through forest bioresidue briquetting: An approach to mitigate forest fires in Pine areas of Western Himalaya, India (with Kapil Joshi and Vinay Sharma), <i>Renewable and Sustainable Energy Reviews</i>, 2015. (<a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032115007042">Link</a>)</li>
+                    </ol>
+                </div>
+
+                <footer class="text-center text-muted py-4">
+                    <p>© 2026 Sukrit Mittal | <a href="mailto:mittalsukrit@gmail.com">Contact</a></p>
+                </footer>
+            </main>
         </div>
-    </section>
-
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <div class="justified-text">
-            <ul>
-            <li>
-                <strong>International Institute of Information Technology (IIIT) Hyderabad</strong> (Jan. 2025 - Present)
-                <ul>
-                <li>Guest Faculty (Pages: <a href="https://www.iiit.ac.in/faculty/~sukrit.mittal">homepage</a>, <a href="https://mittalsukrit.github.io/Mathematics-for-Finance/">course</a>)</li>
-                </ul>
-            </li>
-            <!-- Franklin Templeton -->
-            <li>
-                <strong>Franklin Templeton</strong> (Jun. 2022 - Present)
-                <ul>
-                <li>Director, AI & Optimization Research (Sep. 2025 - Present)</li>
-                <li>Sr. Research Scientist (Jan. 2024 - Aug. 2025)</li>
-                <li>Quant Development, Specialist (Jun. 2022 - Dec. 2023)</li>
-                </ul>
-            </li>
-
-            <!-- Michigan State -->
-            <li>
-                <strong>Michigan State University</strong> (2020)
-                <ul>
-                <li>Visiting Researcher</li>
-                </ul>
-            </li>
-
-            <!-- Mahindra -->
-            <li>
-                <strong>Mahindra & Mahindra Ltd.</strong> (Aug. 2016 - Jun. 2018)
-                <ul>
-                <li>Design Engineer (Aug. 2017 - Jun. 2018)</li>
-                <li>Graduate Engineer Trainee (Aug. 2016 - Jul. 2017)</li>
-                </ul>
-            </li>
-            </ul>
-        </div>
-        </section>
-
-
-    <section id="education">
-        <h2>Education</h2>
-        <div class="justified-text">
-            <ul>
-                <li><strong>CFA Institute</strong> - Data Science for Investment Professionals Certificate (2023 - 2024, <a href="https://credentials.cfainstitute.org/fbd483d4-a992-432e-adc1-735b3d3f7e26">Credential</a>)</li>
-                <li><strong>Indian Institute of Technology Roorkee</strong> - Ph.D. (2018 - 2022, <a href="documents/sukrit_mittal_doctoral_thesis.pdf" target="_blank">Thesis</a>)
-                    <!-- (<a href="documents/sukrit_mittal_doctoral_thesis.pdf" download="sukrit_mittal_doctoral_thesis.pdf">thesis</a>) -->
-                </li>
-                <li><strong>Indian Institute of Technology Roorkee</strong> - B.Tech. (2012 - 2018)</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="talks">
-        <h2>Activities</h2>
-        <div class="justified-text">
-            <ul>
-                <li><b>2026 Generative AI Models & Their Applications</b> (Feb 2026, IIT Jodhpur, India, <a href="https://iitj-saide.github.io/GenAI-workshop-2026/">Link</a>) <br> [Keynote] Generative AI in Finance? </li>
-                <li><b>2025 ACM Winter School - AI & Finance</b> (Dec 2025, IIIT Hyderabad, India, <a href="https://alphagrep.iiit.ac.in/acm-winter-school.html">Link</a>) <br> [Speaker] Multiple sessions (<a href="https://github.com/mittalsukrit/2025_ACM_Winter_School">Link</a>)</li>
-                <li><b>2025 Genetic and Evolutionary Computation Conference</b> (Jul 2025, Malaga, Spain, <a href="https://gecco-2025.sigevo.org/HomePage">Link</a>) <br> [Tutorial] Machine Learning Assisted Evolutionary Multi- and Many-objective Optimization </li>
-                <li><b>2025 IEEE Congress on Evolutionary Computation</b> (Jun 2025, Hangzhou, China, <a href="https://www.cec2025.org/">Link</a>) <br> [Tutorial] Machine Learning Assisted Evolutionary Multi- and Many-objective Optimization </li>
-                <li><b>2025 IIIT Hyderabad</b> (Feb 2025, Hyderabad, India, <a href="https://alphagrep.iiit.ac.in/#visitors">Link</a>) <br> [Talk] Harnessing Reinforcement Learning for Goals-based Wealth Management </li>
-                <li><b>2024 Global Analytics Summit - AI in Finance</b> (Nov 2024, UT Austin, USA, <a href="https://get.mccombs.utexas.edu/global-analytics-summit-2024/">Link</a>) <br> [Keynote] A Meta Reinforcement Learning Approach to Goals-Based Wealth Management </li>
-                <!--  -->
-                <li><b>2024 JOIM Conference - AI in Finance</b> (Oct 2024, MIT, Boston, USA) <br> [Talk] A Meta Reinforcement Learning Approach to Goals-Based Wealth Management </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="books">
-        <h2>Book(s)</h2>
-        <div class="justified-text">
-            <ul>
-                <li>Machine Learning Assisted Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), 2024 (<a href="https://link.springer.com/book/10.1007/978-981-99-2096-9">Link</a>)</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="publications">
-        <h2>Refereed Publications</h2>
-        <div class="justified-text">
-            <p>For more details about these papers, click <a href="content/publications.html">here</a>.</p>
-            <ol>
-                <li>Interpreting Omega Ratio for Goals Based Wealth Management (with Harshad Khadilkar, Sirisha Gorjala, Hungjen Wang, Anand Radhakrishnan and Deep Srivastav), <i>Journal of Wealth Management</i>, 2025.</li>
-                <li>Reinforcement learning for Multiple Goals in Goals-Based Wealth Management (with Sanjiv Das, Daniel Ostrov, Anand Radhakrishnan, Deep Srivastav and Hungjen Wang), <i>Artificial Intelligence for Business (AIxB)</i>, 2024. (<a href="https://ieeexplore.ieee.org/abstract/document/10771457">Link</a>)</li>
-                <!--  -->
-                <li>A Unified Innovized Progress Operator for Performance Enhancement in Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>IEEE Transactions on Evolutionary Computation</i>, 2024. (<a href="https://ieeexplore.ieee.org/abstract/document/10269130">Link</a>, <a href="https://github.com/mittalsukrit/UIP-operator">Code</a>)</li>
-                <!--  -->
-                <li>A Localized High-Fidelity-Dominance-Based Many-Objective Evolutionary Algorithm (with Dhish Kumar Saxena, Sarang Kapoor and Kalyanmoy Deb), <i>IEEE Transactions on Evolutionary Computation</i>, 2023. (<a href="https://ieeexplore.ieee.org/abstract/document/9814856">Link</a>, <a href="https://github.com/mittalsukrit/LHFiD">Code</a>)</li>
-                <!--  -->
-                <li>Enhanced Innovized Progress Operator for Evolutionary Multi- and Many-Objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>IEEE Transactions on Evolutionary Computation</i>, 2022. (<a href="https://ieeexplore.ieee.org/abstract/document/9631974">Link</a>)</li>
-                <!--  -->
-                <li>A Learning-based Innovized Progress Operator for Faster Convergence in Evolutionary Multi-objective Optimization (with Dhish Kumar Saxena, Kalyanmoy Deb and Erik Goodman), <i>ACM Transactions on Evolutionary Learning & Optimization</i>, 2022. (<a href="https://dl.acm.org/doi/abs/10.1145/3474059">Link</a>)</li>
-                <!--  -->
-                <li>Embedding a Repair Operator in Evolutionary Single and Multi-objective Algorithms - An Exploitation-Exploration Perspective (with Kalyanmoy Deb, Dhish Kumar Saxena and Erik Goodman), <i>Evolutionary Multi-Criterion Optimization (EMO)</i>, 2021. (<a href="https://link.springer.com/chapter/10.1007/978-3-030-72062-9_8">Link</a>)</li>
-                <!--  -->
-                <li>A Unified Automated Innovization Framework Using Threshold-based Clustering (with Dhish Kumar Saxena and Kalyanmoy Deb), <i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2020. (<a href="https://ieeexplore.ieee.org/abstract/document/9185879">Link</a>)</li>
-                <!--  -->
-                <li>A Generic and Computationally Efficient Automated Innovization Method for Power-Law Design Rules (with Kanish Garg, Anish Mukherjee, Dhish Kumar Saxena and Kalyanmoy Deb), <i>Genetic and Evolutionary Computation Conference (GECCO '20)</i>, 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3377929.3390022">Link</a>)</li>
-                <!--  -->
-                <li>Learning-based multi-objective optimization through ANN-assisted online Innovization (with Dhish Kumar Saxena and Kalyanmoy Deb), <i>Genetic and Evolutionary Computation Conference (GECCO '20)</i>, 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3377929.3389925">Link</a>)</li>
-                <!--  -->
-                <li>Innovative Design of Hydraulic Actuation System for Operator Fatigue Reduction and Its Optimization (with Divyam Aggarwal and Dhish Kumar Saxena), <i>Advances in Multidisciplinary Analysis and Optimization</i>, 2019. (<a href="https://link.springer.com/chapter/10.1007/978-981-15-5432-2_19">Link</a>)</li>
-                <!--  -->
-                <li>Social entrepreneurship through forest bioresidue briquetting: An approach to mitigate forest fires in Pine areas of Western Himalaya, India (with Kapil Joshi and Vinay Sharma), <i>Renewable and Sustainable Energy Reviews</i>, 2015. (<a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032115007042">Link</a>)</li>
-            </ol>
-        </div>
-        
-    </section>
-
-    <footer>
-        <p>© 2026 Sukrit Mittal | <a href="mailto:mittalsukrit@gmail.com">Contact</a></p>
-    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
